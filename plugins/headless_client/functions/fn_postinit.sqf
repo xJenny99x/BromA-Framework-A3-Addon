@@ -1,4 +1,6 @@
-
+if !(isMultiplayer) then {
+    mission_enable_hc = false
+};
 if (mission_enable_hc && (isServer || hasInterface)) then { mission_AI_controller = false };
 if (!mission_enable_hc && !isServer) then { mission_AI_controller = false };
 
