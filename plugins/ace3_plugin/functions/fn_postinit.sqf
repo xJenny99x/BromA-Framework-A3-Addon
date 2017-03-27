@@ -10,6 +10,7 @@ if !(isClass(configFile>>"CfgPatches">>"ACE_MEDICAL")) exitWith {};
 ace_medical_enableRevive = mission_ace3_revive_enable;
 ace_medical_maxReviveTime = mission_ace3_revive_time;
 ace_medical_amountOfReviveLives = mission_ace3_revive_lives;
+player setVariable ["ace_medical_amountOfReviveLives",mission_ace3_revive_lives];
 
 //ACE 3 Medical ================================================================
 
